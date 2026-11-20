@@ -1,5 +1,16 @@
-.env
+# Python environments
 .venv/
+myenv/
 __pycache__/
+
+# API keys
+.env
+**/.env
+
+# Database files
 *.db
-.ipynb_checkpoints/
+*.sqlite
+*.sqlite3
+
+# Python cache
+*.pyc
